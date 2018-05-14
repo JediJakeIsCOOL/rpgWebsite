@@ -3,12 +3,53 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>Kingdom of Objalinsk</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
 </head>
 <body>
-    
+    <div id = "site-header-sticky-wrapper">
+        <header id ='site-header'>
+            <div id = 'site-header-inner' >
+                <div id="site-navigation-wrap">
+                    <nav id= "site-navigation" class="navbar position-sticky">
+                        <ul id ='menu-top-menu' class="nav navbar-nav">
+                            <li id="menu-item-1"><a href="">Home</a></li>
+                            <li id='menu-item-2'><a href="">Monsters</a></li>
+                            <li id='menu-item-logo'>
+                                <div id="site-logo">
+                                    <a class="main-logo" href="websitename.html"><img class="logo-img" src="" width="350" height=""></a>
+                                </div>
+                            </li>
+                            <li id='menu-item-3'><a href="">High Scores</a></li>
+                            <li id='menu-item-4'><a href="">Screenshots</a></li>
+                            <li id='menu-item-5'><a href="">Play</a></li>
+                            <div class="top-login">
+                                    <a href="" title="">Login</a>
+                                    or
+                                    <a href="" title=""> Create an Account</a>
+                                </div>
+                        </ul>
+                        
+                    </nav>
+                </div>
+            </div>
+        </header>
+    </div>
+    <main id="main">
+        <div id="primary" class="container clr">
+            <div id="site-intro"><img id="logo-img" src="./images/kingdomlogo.png"/>
+                <div id="game-description"> Kingdom of Objalinsk is a live action RPG where you kill enemies, level up, become stronger, and conquer the kingdom.
+                    <div id="play-button"><a href="playlink"><img src="./images/button_bg.gif"/></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="video-container" class="container">
+            <div id='video'> <iframe width="1000" height="600" src="https://www.youtube.com/embed/t-mKyJarrDU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+        </div>
+    </main>
 </body>
 </html>

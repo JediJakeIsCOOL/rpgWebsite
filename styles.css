@@ -1,0 +1,61 @@
+body{
+    background-image: url(./images/RPG_Background1.png)
+}
+
+#top-bar{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    width: 100% !important;
+    /* background-color: */
+}
+.top-login{
+    float: right;
+    vertical-align: middle;
+}
+#site-navigation{
+    display: block !important;
+}
+#menu-top-menu{
+    text-align: center !important;
+    float: none;
+    display: inline-block;
+    
+    margin: 0 auto;
+    list-style-type: none;
+
+    
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center !important;
+    padding: 16px;
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    width: 100%;
+}
+
+#site-logo{
+    
+    
+}
+
+#video-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+#site-intro{
+    text-align: center;
+    color: white
+}
+#play-button{
+    margin-top: 50px;
+}
