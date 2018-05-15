@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="../styles.css" />
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
 </head>
 <body>
         <ul id ='menu-top-menu' class="nav navbar-nav">
@@ -26,55 +27,167 @@
                         <a href="" title=""> Create an Account</a>
                     </div>
             </ul>
+        <div class="container enemy-headers">
+            <div class="row">
+                <div class="col-xs-4">
+                    Enemies
+                </div>
+                <div class="col-xs-4">
+                        Stats
+                    </div>
+                    <div class="col-xs-4">
+                            Abilities
+                        </div>
+            </div>
+        </div>
         <div class="enemies-wrapper">
             <div class="container enemies-container">
                     <div class="row first-row-enemies">
                       <div class="col-xs-4">
-                          <p> The Goblin </p>
-                        <img src="../images/hero.png">
-                      </div>
+                         <u> <p>  Goblin </p><u>
+                        <img class="img-enemies" src="./images/goblin.png">
+                      </div>     
                       <div class="col-xs-4">
-                            <p> The Goblin </p>
-                        <img src="../images/hero.png">
+                            <p> Health: 8 </p>
+                            <p> Power: 1</p>
+                            <p> Defense: 2</p>
+                            <p> Bounty: 5-10 gold</p>
+                        
                       </div>
-                      <div class="col-xs-4">
-                            <p> The Goblin </p>
-                        <img src="../images/hero.png">
+                      
+                      <div class="col-xs-4" style="color: white">
+                            <p> Weakest of enemies and has no special abilities. Poor guy. </p>
+                        
                       </div>
                     </div>
-                  </div>
-                  <div class="container enemies-container">
-                        <div class="row first-row-enemies">
-                          <div class="col-xs-4">
-                                <p> The Goblin </p>
-                            <img src="../images/hero.png">
-                          </div>
-                          <div class="col-xs-4">
-                                <p> The Goblin </p>
-                            <img src="../images/hero.png">
-                          </div>
-                          <div class="col-xs-4">
-                                <p> The Goblin </p>
-                            <img src="../images/hero.png">
-                          </div>
-                        </div>
-                      </div>
-                      <div class="container enemies-container">
+                    </div>
+                </br>
+                    <div class="container enemies-container">
                             <div class="row first-row-enemies">
                               <div class="col-xs-4">
-                                    <p> The Goblin </p>
-                                <img src="../images/hero.png">
-                              </div>
+                                    <u> <p>  Medic </p> </u>
+                                <img class="img-enemies" src="./images/medic.png">
+                              </div>     
                               <div class="col-xs-4">
-                                    <p> The Goblin </p>
-                                <img src="../images/hero.png">
+                                    <p> Health: 20  </p>
+                                    <p> Power: 10 </p>
+                                    <p> Defense: 10</p>
+                                    <p> Bounty: 20-40 gold</p>
+                                
                               </div>
-                              <div class="col-xs-4">
-                                    <p> The Goblin </p>
-                                <img src="../images/hero.png">
+                              
+                              <div class="col-xs-4" style="color: white">
+                                    <p> Heals itself the same amount as that turns attack / 20%</p>
+                                
                               </div>
                             </div>
-                          </div>
-                </div>
+                            </div>
+                        </br>
+                            <div class="container enemies-container">
+                                    <div class="row first-row-enemies">
+                                      <div class="col-xs-4">
+                                            <u> <p>  Shadow </p> </u>
+                                        <img class="img-enemies" src="./images/shadow.png">
+                                      </div>     
+                                      <div class="col-xs-4">
+                                            <p> Health: 1</p> 
+                                            <p> Power: 15</p>
+                                            <p> Defense: 4</p>
+                                            <p> Bounty: 35-70 gold</p>
+                                    
+                                      </div>
+                                      
+                                      <div class="col-xs-4" style="color: white">
+                                            <p> Only takes damage about 10% of the times it is attacked / 10% </p>
+                                        
+                                      </div>
+                                    </div>
+                                </div>
+                            </br>
+                            <div class="container enemies-container">
+                                    <div class="row first-row-enemies">
+                                        <div class="col-xs-4">
+                                                <u> <p>  Wizard </p> </u>
+                                        <img class="img-enemies" src="./images/wizard.png">
+                                        </div>     
+                                        <div class="col-xs-4">
+                                            <p> Health: 22 </p>
+                                            <p> Power: 20</p>
+                                            <p> Defense: 15</p>
+                                            <p> Bounty: 60-90 gold</p>
+                                        
+                                        </div>
+                                        
+                                        <div class="col-xs-4" style="color: white">
+                                            <p> Freezes oponent for one move / 20%</p>
+                                        
+                                        </div>
+                                    </div>
+                                    </div>
+                                </br>
+                        <div class="container enemies-container">
+                                <div class="row first-row-enemies">
+                                    <div class="col-xs-4">
+                                            <u> <p>  Ranger </p> </u>
+                                    <img class="img-enemies" src="./images/ranger.png">
+                                    </div>     
+                                    <div class="col-xs-4">
+                                        <p> Health: 28 </p>
+                                        <p> Power: 18</p>
+                                        <p> Defense: 20</p>
+                                        <p> Bounty: 70-120</p>
+                                    
+                                    </div>
+                                    
+                                    <div class="col-xs-4" style="color: white">
+                                        <p> Shoots two arrows in one move / 20%</p>
+                                    
+                                    </div>
+                                </div>
+                                </div>
+                            </br>
+                                        <div class="container enemies-container">
+                                                <div class="row first-row-enemies">
+                                                    <div class="col-xs-4">
+                                                       <u> <p>  Zombie </p> </u>
+                                                    <img class="img-enemies" src="./images/zombie.png">
+                                                    </div>     
+                                                    <div class="col-xs-4">
+                                                            <p> Health: 30  </p>
+                                                            <p> Power: 20</p>
+                                                            <p> Defense: 25</p>
+                                                            <p> Bounty: 100-250 gold</p>
+                                                    
+                                                    </div>
+                                                    
+                                                    <div class="col-xs-4" style="color: white">
+                                                        <p> Does not die unless head is chopped off with axe </p>
+                                                    
+                                                    </div>
+                                                </div>
+                                                </div>
+                                            </br>
+                                                <div class="container enemies-container">
+                                                        <div class="row first-row-enemies">
+                                                            <div class="col-xs-4">
+                                                                    <u> <p>  Dragon </p> </u>
+                                                            <img class="img-enemies" src="./images/dragon.png" width="200px" />
+                                                            </div>     
+                                                            <div class="col-xs-4">
+                                                                <p> Health: 45 </p>
+                                                                <p> Power: 30 </p>
+                                                                <p> Defense: 45 </p>
+                                                                <p> Bounty: 400-800 gold</p>
+                                                                
+                                                                
+                                                            </div>
+                                                            
+                                                            <div class="col-xs-4" style="color: white">
+                                                                <p> Breathes fire killing it's enemies that do not have a special shield / 33%</p>
+                                                            
+                                                            </div>
+                                                        </div>
+                                                        </div>
+                                                    </br>
 </body>
 </html>
