@@ -1,7 +1,15 @@
 body{
-    background-image: url(./images/RPG_Background1.png)
+    background-image: url(./images/RPG_Background1.png);
+    
 }
-
+#game-description{
+    font-family: 'Press Start 2P', cursive;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
 #top-bar{
     padding-top: 10px;
     padding-bottom: 10px;
@@ -13,26 +21,27 @@ body{
     float: right;
     vertical-align: middle;
 }
-#site-navigation{
-    display: block !important;
 
-    
-}
 #menu-top-menu{
     text-align: center !important;
     float: none;
     display: inline-block;
-    
+    background-color: black;
     margin: 0 auto;
     list-style-type: none;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Cinzel', serif;
+    font-size: 1.2em;
+    color: goldenrod !important;
+    width: 100%;
+    text-decoration: none !important;
 
     
 }
 li a {
     display: block;
-    color: white;
+    color: gold;
     text-align: center !important;
-    padding: 16px;
     text-decoration: none;
 }
 ul {
@@ -44,10 +53,13 @@ ul {
     width: 100%;
 }
 
-#site-logo{
-    
-    
+#logo-img{
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
+    
+    
+
 
 #video-container{
     display: flex;
@@ -68,8 +80,12 @@ ul {
     margin: auto;
     color: red;
     text-align: center;
-    font-family: 'Press Start 2P', cursive;
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Cinzel', serif;
     text-decoration: underline;
+    -webkit-text-stroke-width: .3px;
+    -webkit-text-stroke-color: black;
+    font-size: 20px;
     
 }
 
@@ -84,4 +100,30 @@ ul {
     text-align: center;
     margin-top: 100px;
     margin-bottom: 25px;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
+     
+}
+.navbar-nav {
+    width: 100%;
+    text-align: center;
+      
+    }
+li {
+    float: none;
+      display: inline-block;
+}
+  
+.high-score-container{
+    background: rgba(0, 0, 0, .7);
+    width: 75%;
+    margin: auto;
+    color: red;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Cinzel', serif;
+    text-decoration: underline;
+    -webkit-text-stroke-width: .3px;
+    -webkit-text-stroke-color: black;
+    font-size: 20px;
 }
